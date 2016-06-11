@@ -1,0 +1,414 @@
+.mint {
+    color: #24ba9f;
+    font-family: 'ralewayblack';
+    font-weight: bold;
+}
+#top_panel {
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'ralewaymedium', Arial, sans-serif;
+}
+.basic_contener {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid green;*/
+}
+#top_panel_left {
+    width: 49%;
+    height: auto;
+    /*border: 1px double yellow;*/
+    float: left;
+}
+h2 {
+    font-family: 'ralewaymedium', Arial, sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+#top_panel_right {
+    width: 49% height: auto;
+    /*border: 1px solid orange;*/
+    float: right;
+}
+.menu_list {
+    margin-top: 15px;
+}
+.menu_list li {
+    display: inline;
+    margin-right: 50px;
+}
+.menu_list li:last-child {
+    margin-right: 1px;
+}
+#carusel {
+    width: 100%;
+    height: 500px;
+    /*border: 1px solid black;*/
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(206, 206, 214, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(206, 206, 214, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(206, 206, 214, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(206, 206, 214, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(206, 206, 214, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(206, 206, 214, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ceced6', GradientType=0);
+}
+.left_sign {
+    font-family: 'ralewayextralight', Arial, sans-serif;
+    width: 50px;
+    height: 500px;
+    /*border: 1px solid red;*/
+    padding-top: 190px;
+    padding-left: 5px;
+    color: #24ba9f;
+    box-sizing: border-box;
+    font-size: 70px;
+    float: left;
+}
+.chair_foto {
+    /*border: 1px solid green;*/
+    width: auto;
+    height: 414px;
+    margin-left: 10px;
+    float: left;
+    padding-top: 85px;
+}
+.foto1 {
+    width: 560px;
+    height: 390px;
+}
+.sit_text {
+    float: left;
+    width: 500px;
+    height: 500px;
+    /*border: 1px double orange;*/
+    position: relative;
+}
+h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'ralewaymedium', Arial, sans-serif;
+    margin-right: 5px;
+}
+.mint_sign {
+    color: #24ba9f;
+    font-size: 30px;
+    font-family: 'ralewaybold', Arial, sans-serif;
+    margin-top: 125px;
+}
+h1:first-child {
+    margin-left: 110px;
+}
+.under_sign_text {
+    font-family: 'ralewaylight', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    /*margin-right: 5px;*/
+    padding: 10px;
+}
+.more_button {
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #24ba9f;
+    color: white;
+    position: absolute;
+    font-family: 'ralewaymedium', Arial, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 19px;
+    padding-left: 45px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.right_sign {
+    font-family: 'ralewayextralight', Arial, sans-serif;
+    width: 50px;
+    height: 500px;
+    /*border: 1px solid red;*/
+    padding-top: 190px;
+    padding-left: 5px;
+    color: #24ba9f;
+    box-sizing: border-box;
+    font-size: 70px;
+    float: left;
+    margin-left: 20px;
+}
+#white_content {
+    background-color: white;
+    /*border: 1px solid black;*/
+    height: 300px;
+    position: relative;
+}
+.hang {
+    position: relative;
+    padding: 27px;
+}
+.box1 {
+    float: left;
+}
+.transparent {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 30px;
+}
+.mint_underline {
+    font-family: 'ralewaybold', Arial, sans-serif;
+    border-bottom: 8px solid #24ba9f;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 140px;
+}
+.box2 {
+    float: left;
+    padding-bottom: 15px;
+}
+.grey_border {
+    font-family: 'ralewaylight', Arial, sans-serif;
+    float: left;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+.grey_border p {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+#cost {
+    background-color: #f1f1f1;
+    /*border: 1px solid black;*/
+    height: 700px;
+    overflow: auto;
+}
+.mint_underline_big {
+    font-family: 'ralewaymedium', Arial, sans-serif;
+    border-bottom: 8px solid #24ba9f;
+    margin-top: 30px;
+    width: 280px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.coffin {
+    width: 350px;
+    height: 550px;
+    border: 2px solid #d4d4d4;
+    position: relative;
+    top: 60px;
+    background-color: #f9f9f9;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+.coffin:hover {
+    background-color: #27c7ab;
+    border: 2px solid #27c7ab;
+}
+.coffin:hover .circle {
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 0px 6px #27c7ab;
+    border: 12px solid #27c7ab;
+}
+.coffin:hover h1 {
+    color: white;
+}
+.coffin:hover .cash {
+    color: #27c7ab;
+}
+.coffin:hover .pln_month {
+    color: #27c7ab;
+}
+.coffin:hover .include {
+  background-color: white;
+  color: #27c7ab;
+}
+.coffin:hover .coffin_list li:nth-child(odd){
+  background-color: white;
+}
+.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #c2c2c2;
+    top: -30px;
+    position: absolute;
+    left: 140px;
+    border: 12px solid white;
+    box-shadow: 0px 0px 0px 6px #d8d8d8;
+}
+.coffin h1 {
+    margin-top: 60px;
+    color: #24ba9f;
+    text-align: center;
+}
+.cost_circle {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    margin-top: 40px;
+    margin-left: 110px;
+    position: relative;
+}
+.cash sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.cash {
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 43px;
+    color: #bbbbbb;
+}
+.pln_month {
+    margin-top: 5px;
+    margin-left: 4px;
+    color: #bbbbbb;
+}
+.coffin_list {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: #c5c5c5;
+}
+.coffin_list li {
+    height: 35px;
+    padding-top: 10px;
+}
+.coffin_list li:nth-child(odd) {
+    background-color: #e4e4e4;
+}
+.coffin_list li:nth-child(even) {
+    background-color: #f1f1f1;
+}
+.include {
+    background-color: #27c7ab;
+    width: 100px;
+    height: 15px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    bottom: 5px;
+    left: 105px;
+    color: white;
+    padding: 17px;
+}
+#form_chair {
+    width: 100%;
+    height: 700px;
+    background: white;
+    /*border: 1px solid;*/
+}
+#left_contact {
+    width: 49%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    float: left;
+    position: relative;
+}
+.inside_chair_form {
+    margin-top: 40px;
+}
+input {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'ralewayextralight', Arial, sans-serif;
+    border: 1px solid #27c7ab;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+input.big {
+    height: 250px;
+    padding-bottom: 200px;
+}
+#right_contact {
+    width: 49%;
+    height: 100%;
+    float: left;
+    /*border: 1px solid orange;*/
+    position: relative;
+}
+.red_chair_img {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+}
+.red_chair input {
+    position: absolute;
+    vertical-align: baseline;
+}
+input[type=checkbox] {
+    width: 60px;
+    position: absolute;
+    right: 75%;
+    top: 45%;
+    background: transparent;
+}
+input[type=checkbox]:active {
+    background-image: url("../images/form_ok.jpg");
+}
+.dane_osobowe {
+    position: absolute;
+    right: 20%;
+    top: 51%;
+    margin-left: 176px;
+    font-size: 18px;
+    font-family: 'ralewayextralight', Arial, sans-serif;
+    color: #b5b5b5;
+}
+.send {
+    position: absolute;
+    top: 71%;
+    left: 14%;
+    background: #27c7ab;
+    border-radius: 5px;
+    width: 400px;
+    height: 49px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 32px;
+    color: white;
+    font-family: 'ralewaybold', Arial, sans-serif;
+}
+.copyright {
+    font-family: 'ralewayextralight', Arial, sans-serif;
+    color: #cacaca;
+    margin-top: 100px;
+    margin-left: -9px;
+}
+.media_div {
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+.sign_span {
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+}
+.sign {
+    color: #9c9c9c;
+    font-family: 'ralewaybold', Arial, sans-serif;
+}
+.sign_bold {
+    color: #919191;
+    font-family: 'ralewayblack', Arial, sans-serif;
+}
